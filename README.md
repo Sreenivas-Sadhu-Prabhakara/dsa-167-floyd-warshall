@@ -12,6 +12,13 @@ The DP state is sneaky: after iteration k, `d[i][j]` is the shortest path using 
 
 **Complexity:** O(V³) time, O(V²) space — fine to ~500 vertices, which is its niche.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
